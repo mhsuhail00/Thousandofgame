@@ -1,0 +1,276 @@
+.body { background-image: url(Files/Static/bg.jpg);
+     background-attachment: fixed;
+    background-size: cover;
+   background-position: center;
+    background-repeat: no-repeat;}
+* { margin: 0px;
+        padding: 0px;}
+@font-face {font-family: rt;
+	src: url(font/RINGM.TTF);
+}
+@font-face {
+	   font-family: txt;
+    src: url(font/alex.ttf);
+}
+#title { margin-top: 50px ;  
+    color: white;
+	font-size: 65px;
+	text-shadow: 4px 4px black;
+	font-family: rt;
+	width: 700px;
+	margin-left:auto;
+	margin-right: auto;
+}
+ol li { position: relative; 
+    z-index: +1;
+    list-style-type: none;
+    background: teal;
+    font-size: 20px;
+    margin-right: 5px; 
+    line-height: 45px;
+    width: 130px;
+    height: 45px;
+    margin-top: 1px;
+   text-align: center;
+    float: left;
+    }
+a { text-decoration: none;
+    }
+ol a { text-decoration: none;
+    }
+#menu a {  color: white;}
+#menu {width: 675px;
+    height: 45px;
+    margin-top: 80px;
+    margin-bottom: 60px;
+    }
+ol ol { text-decoration: none;
+        color: white; 
+       text-align: center;
+       position: absolute;
+    height: 0px;
+    overflow: hidden; 
+    transition:height .6s ease;
+}
+ol li:hover { background-color: #28ced0;}
+ol li:hover > ol { position: absolute;
+    height: 300px;
+}
+#a1 {height: 300px;
+    width: 850px;
+    margin: 30px auto;
+    text-align: justify;
+    background: rgba(255,255,255, 0.6);
+    overflow: hidden;
+    }
+#a2 {height: auto;
+    width: 850px;
+    margin: 30px auto;
+    text-align: justify;
+    background: rgba(255,255,255, 0.6);
+    overflow: hidden;
+    padding: 10px;
+    }
+#con { width: 300px;
+    height: 180px;
+}
+.con1 {width: 510px;
+    height: 290px;
+    float: left;
+    margin: 4px 0px auto 3px;}
+.con2 {width: 330px;
+    height: 290px;
+    float: left;
+    margin: 4px auto auto 0px;
+    }
+p {font-size: 30px; 
+    margin: auto;
+text-align: justify;
+font-family: txt;
+    color: black;
+}
+.title { text-align: center;
+    }
+.title a { color: black;
+    }
+.title:hover > a { color: crimson;}
+.title1 { text-align: left;
+	font-size:35px;
+    text-decoration: none;}
+.title1 a { color: black;}
+.title1:hover > a { color: crimson;}
+.nxt{background: white; 
+    height: auto;
+    width: 95px;
+    color: black;
+    border: 2px solid gray;
+    margin-top: 5px;
+    font-family: txt;
+    border-radius: 4px;}
+#nxt {height: 60px;
+    width: 208px;}
+#a3 {height: 110px;
+    width: 850px;
+    background: rgba(255,255,255, 0.6);
+    margin-top: -15px;
+    padding-top: 10px;
+    }
+hr { border-style:inset;
+    border-color: white;
+    border-width: 1px;
+}
+#top { background: white;
+    font-size: 13px;
+    color: black;
+    width: 70px;
+    height: 25px;
+    text-align: center;
+    border-radius: 20px;
+    line-height: 25px;
+    display: block;
+    position: fixed;
+    right: 7px;
+    bottom: 5px;
+}
+#youtube { height: 45px;
+          position: fixed;
+         top: 235px;
+         left: -136px;
+        z-index: +10;
+    transition: 0.6s;
+    border-radius: 2px;
+}
+#blog { height: 45px;
+          position: fixed;
+         top: 281px;
+         left: -136px;
+         z-index: +10;
+    border-radius: 2px;
+    transition: 0.6s;
+}
+#insta { height: 45px;
+          position: fixed;
+         top: 327px;
+         left:-136px;
+         z-index: +10;
+    border-radius: 2px;
+    transition: 0.6s;
+}
+#twit { height: 45px;
+          position: fixed;
+         top: 373px;
+         left: -136px;
+         z-index: +10;
+    border-radius: 2px;
+    transition: 0.6s;
+} 
+#youtube:hover { left: 1px;
+                }
+#blog:hover { left: 1px;
+}
+#insta:hover { left: 1px;
+}
+#twit:hover { left: 1px;
+}
+span { color: white;
+    position: relative;
+    top: 6px;
+    bottom: auto;
+    text-shadow: 1px 1px black;
+   }
+  #search-box { height: 40px;
+	 background: white;
+	border-radius:40px;
+	display: inline-block; 
+	line-height:40px;
+	 padding:3px;
+    position: relative;
+	top: 30px; 
+	right: -500px;
+  }
+ #search-txt { background: none;
+	  outline: none;
+	 border: none;
+	font-size: 14px;
+	width: 0px;
+	transition: .4s;
+    position: relative;
+     left: 10px;
+ }
+#search-button { height: 40px;
+	width: 40px;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+    align-items: center;
+	float: right;}
+#search-box:hover > #search-txt { width: 150px;}
+#search-box:hover > #search-button { background: #dcdde1;}
+#setup { width: 820px;
+        height: 450px;
+        margin: 15px;
+}
+#download { margin-bottom: 20px;
+            width: 240px;
+        }
+#download:hover { width: 243px;
+    transition: .2s;
+        }
+.entity { padding: 5px;
+    width: 830px;
+    margin-left: 10px;
+    text-align: center;
+    border-collapse: collapse;
+    font-family: cursive;
+}
+th , td{ border-bottom: 1px white solid;
+}
+th { height: 50px;
+    background: white;
+    font-size: 18px;}
+td { height: 37px;
+    background: #dcdde1;}
+@font-face {
+  font-family: ico;
+  src: url(Font/fontawesome-webfont.eot);
+  src: url(font/fontawesome-webfont.eot), url(font/fontawesome-webfont.woff2), url(font/fontawesome-webfont.woff), url(fonts/fontawesome-webfont.ttf), url(font/fontawesome-webfont.svg);
+}
+.ico {font-style: normal;
+  display: inline-block;
+  font-family: ico;
+  font-size: inherit;
+  color: white;
+}
+.ico-gear:before { font-size: 5px;
+  content: "\f013";
+}
+.ico-home:before {font-size: 17px;
+  content: "\f015";
+}
+.ico-spin {
+  animation: fa-spin 2s infinite linear;
+}
+.ico-book:before { font-size: 17px;
+  content: "\f02d";
+}
+.ico-gamepad:before { font-size: 17px;
+  content: "\f11b";
+}
+.ico-search:before {font-size: 17px;
+    color: red;
+  content: "\f002";
+}
+.ico-caret-down:before { font-size: 13px;
+  content: "\f0d7";
+}
+.ico-info:before { font-size: 17px;
+  content: "\f05a";
+}
+
+
+    
+    
+    
+
+   
+    
