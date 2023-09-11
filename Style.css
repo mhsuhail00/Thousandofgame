@@ -1,9 +1,3 @@
-@font-face {
-  font-family: ico;
-  src: url(font/fontawesome-webfont.eot); 
-  src: url(fonts/fontawesome-webfont.ttf);
-  src: url(font/fontawesome-webfont.eot), url(font/fontawesome-webfont.woff2), url(font/fontawesome-webfont.woff), url(font/fontawesome-webfont.svg);
-}
 .body { background-image: url(Files/Static/bg.jpg);
      background-attachment: fixed;
     background-size: cover;
@@ -236,6 +230,12 @@ th { height: 50px;
     font-size: 18px;}
 td { height: 37px;
     background: #dcdde1;}
+@font-face {
+  font-family: ico;
+  src: url(font/fontawesome-webfont.eot); 
+  src: url(fonts/fontawesome-webfont.ttf);
+  src: url(font/fontawesome-webfont.eot), url(font/fontawesome-webfont.woff2), url(font/fontawesome-webfont.woff), url(font/fontawesome-webfont.svg);
+}
 .ico {font-style: normal;
   display: inline-block;
   font-family: ico;
