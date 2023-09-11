@@ -1,7 +1,8 @@
 @font-face {
   font-family: ico;
-  src: url(font/fontawesome-webfont.eot);
-  src: url(font/fontawesome-webfont.eot), url(font/fontawesome-webfont.woff2), url(font/fontawesome-webfont.woff), url(fonts/fontawesome-webfont.ttf), url(font/fontawesome-webfont.svg);
+  src: url(font/fontawesome-webfont.eot); 
+  src: url(fonts/fontawesome-webfont.ttf);
+  src: url(font/fontawesome-webfont.eot), url(font/fontawesome-webfont.woff2), url(font/fontawesome-webfont.woff), url(font/fontawesome-webfont.svg);
 }
 .body { background-image: url(Files/Static/bg.jpg);
      background-attachment: fixed;
